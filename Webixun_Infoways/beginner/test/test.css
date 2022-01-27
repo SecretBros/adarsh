@@ -1,0 +1,18 @@
+
+*{
+color: darksalmon;
+}
+* h1{
+    color:black;
+
+}
+p::h1{
+    color:black;
+}
+div p{
+    color:chartreuse
+}
+ div h1{
+     color:cornflowerblue;
+ }
+ div

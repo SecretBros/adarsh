@@ -1,0 +1,118 @@
+*{
+    margin:0;padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana,Tahoma, sans-serif;
+}
+
+.main_li{
+    display:flex;
+    align-items:center;
+}
+.container{
+    min-height: 100vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: url('modern-fluid-red-gradient-banner-with-curve-shapes_1017-26364.jpg') no-repeat;
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+
+
+}
+.container form{
+    height: 450px;
+    width:26rem;
+    background:rgba(255,255,255,.1);
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    /* backdrop-filter: blur(10px); */
+    padding-left:1rem;
+    overflow-y: auto;
+
+}
+.container form h1{
+    font-size: 2rem;
+    padding: 2rem 0;
+    color:#ccc;
+    letter-spacing: .1rem;
+}
+.container form input{
+    outline: none;
+    border:none;
+    height: 2.2rem;
+    background:rgba(0,0,0,.1);
+    color:black;
+    box-shadow: 0 0 .2rem rgba(0,0,0,.3)inset;
+    font-size: 1rem;
+    padding:0,8px;
+    margin:10px 0;
+    letter-spacing:1px;
+}
+.container #del-btn{
+    height: 2rem;
+    width:10%;
+    background: red;
+    cursor: pointer;
+    position: absolute;
+   right:36rem;
+    bottom:7rem;
+}
+.container #add-btn{
+    height: 2rem;
+    width:3%;
+    background: rgb(255, 60, 0);
+    cursor: pointer;
+    position: absolute;
+    margin: 9px 0px 1px 5px;
+}
+
+
+.container li{
+    list-style: none;
+   margin-left:10px;
+    outline: none;
+    border:none;
+    height: 2.2rem;
+    width:82%;
+    background:rgba(0,0,0,.1);
+    color:black;
+    box-shadow: 0 0 .2rem rgba(0,0,0,.3)inset;
+    font-size: 1rem;
+    letter-spacing:1px;
+    text-align: left;
+    border-radius: 5px;
+
+  }
+#adarsh{
+      margin:0;
+    border: 0px;
+    width: 50%;
+    height: 2em;
+    border:2px;
+}
+
+@media (min-width: 1400px) { 
+    .container #delete-btn{
+        height: 2rem;
+        width:100%;
+        background: red;
+        cursor: pointer;
+        position: absolute;
+         right:43rem;
+        bottom:10rem;   
+    }
+    .container #add-btn{
+        height: 2rem;
+        width:2rem;
+        background: rgb(255, 30, 0);
+        cursor: pointer;
+        position: absolute;
+        margin:8px 1px 1px 2px;
+    }
+    
+}

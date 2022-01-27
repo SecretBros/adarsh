@@ -1,0 +1,17 @@
+.container-fluid{
+    border: 8px solid black;
+}
+.row{
+    border: 8px solid red;
+    padding:20px;
+}
+
+.col-3{
+    background-color: blue;
+    
+
+}
+.col-5{
+    background-color: pink;
+
+}

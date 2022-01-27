@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#animation{
+    height: 100vh;
+}
+#row1 {
+    height: 684px; background-color: rgb(49, 36, 80); 
+}
+#sidebar{
+    background-color: rgb(49, 36, 80);
+}
+#side {
+    height: 684px;
+    background-color: rgb(49, 36, 80);   
+}
+
+.innerside {
+    
+    font-size: 20px;
+    margin-top: 148px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    padding-bottom: .3em;
+    
+}
+ul #list1 {
+    margin-top: 133px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+.scrolly {
+    display: flex;
+    color: rgb(95, 91, 91);
+    padding: .5em;
+    text-decoration: none;
+}
+hr {
+    width: 20em;
+    border-radius: 10px;
+    height: 4em;
+    background-image: linear-gradient(to right, rgb(58, 3, 63), rgb(248, 88, 235));
+}
+#listitem {
+    list-style-type: none;
+    font-size: .7em;
+    font-weight: bold;
+}
+li a:hover {
+    color: #ffffff;
+}
+
+
+/* this is the css for about section */
+#row2 {
+    height: 750px;
+    background-color: rgb(80, 81, 181);
+}
+#aboutsec {
+    margin: 40px 0 0 40px;
+}
+#inner-aboutus {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    color: white;
+}
+/* this is row3*/
+#row3 {
+    height: 900px;
+    background-color: rgb(183, 78, 145);
+}
+#grid {
+    height: 850px;
+    margin: 40px 0 0 40px;
+    color: white;
+    font-size: .7em;
+    font-weight: bold;
+}
+.division {
+    display: grid;
+    grid-template-columns: 60% 60%;
+    grid-template-rows: 25% 25% 25%;
+    color: black;
+    width: 100%;
+    height: 800px;
+}
+.divg {
+    border: 2px solid rgb(250, 247, 247);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+ul #btn {
+    margin:49px 0px 0px 1px;
+    width: 9rem;
+    height: 6em;
+    border-radius: 3em;
+    flex-direction: row;
+    text-align: center;
+    line-height: 48.5px;
+    background: #cf6db2;
+    border-radius: 3em;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7em;
+    padding: 0 3.75em;
+    display: flex;
+    color: #ffffff ;
+}
+#btn:hover{
+    background-color:rgb(207, 113, 160)
+}
+#inner-cols{
+    color:white
+}
+#para{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 1.5em;
+    font-weight:normal;
+    padding-top:20px ;
+}
+/* installer*/
+
+#section-features h4{
+    padding-left: 1.7em;
+}
+#row4 {
+    height: 750px;
+    background-color: #5e42a6;
+    
+}
+#section-features{
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+line-height: 1.5;
+    
+}
+#inner-downloads{
+    padding-left: 2.4em;
+    display: flex;
+    flex-direction: column;margin-top: 2em;   
+}
+ li .inner-image{
+    display: flex;
+    list-style-type: none;
+    background-color: solid black;
+    padding: 1em;
+    color: floralwhite;
+    width:15rem;
+    border: 2px white;
+    letter-spacing: 0.25em;
+    font-weight: normal;
+}
+#installer{
+    margin: 1em;background-color: solid black;
+}
+ul li .inner-image{
+border:2px solid white}
+ul{
+    list-style-type: none;
+}
+#imgsrc{
+    width:14em;
+    height: 5em;
+    margin-top: 2em;
+    border: 3px solid rgb(8, 8, 8);
+    color:black;
+}
+#contact{
+    margin-top: 56px;
+}
+#vertical{
+    display: flex;
+justify-content: right;
+   background-color: cadetblue;
+    padding-right: 0;
+   
+}
+/* this is css for row 5 means footer*/
+#row5{
+    background-color: rgb(73,51,130);
+    color:rgba(255, 255, 255, 0.55);
+    height: 156px;
+    letter-spacing: 0.25em;
+    font-weight:small;
+    font-size: .7em;
+}
+#algin-footer{
+    width:100%;
+    padding-left: 2em;
+    align-items: center;
+    opacity: 0.6;
+    
+    
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+
+@media (max-width:600px) {
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    #sidebar{
+        /* display: none; */
+        padding: 0;
+        margin: 0;
+        width: 0%;
+    }
+    #list1{
+        display:none;
+
+    }
+    #col1{
+        margin-left:40px ;
+
+    }
+    #listitem{
+        display:none;
+    }
+    #row2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    /* #animation{ */
+        /* z-index: 1;
+    }
+    #col1{
+        z-index: 1;  
+    } */
+
+   
+    #row3 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content:space-around ; */
+    }
+    #row5{
+        height: 100vh;
+        display: flex;
+    }
+
+}

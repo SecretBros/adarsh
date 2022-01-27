@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden; 
+    background-image: url('background.svg');   
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    height:695px ;
+    width: 100%;
+}
+#be-apperaasl{
+    display: flex;
+    flex-direction: column;
+}
+#capture{
+    max-width: 350px;
+    max-height: 450px;
+    display: flex;
+ position: absolute;
+    justify-content: flex-start;
+   
+}
+form{
+    margin-left:130px ;
+    margin-bottom: 150px;
+    padding: none;
+
+}
+.comming-soon{  }
+#email{
+    text-align: center;
+    width: 370px;
+    height: 50px;
+    border-radius: 30px;
+    padding-top: 4px;
+    color:  solid black;
+}
+#emailinfo{
+padding: left 10px;
+color: darksalmon;
+}
+#item1{
+
+}
+
+  #base-apperal{
+      z-index: 1;
+  }
+
+  #part1{
+    display: flex;
+
+    flex-direction: column;
+    justify-content:space-evenly ;
+    height: 800px;
+    width: 0px;
+    flex-grow: 1;
+
+}
+#part2{
+    margin:0;
+    padding:0px;
+    height: 100%;
+    width: 600px;  
+    display: flex;
+    flex-direction: column;
+    background-size: cover; background-image: url('background.svg');  
+    
+}
+#btnlog{
+    height: 100%;
+}
+
+@media only screen and (min-device-width: 480px){
+img {
+height: auto;
+max-width: 100%;
+}
+}
+/*
+/*
+@media only screen and (min-device-width: 480px){
+   
+    #part2{
+        width: 100px;
+        height: 200px;
+    }
+
+}
+
+
+*/
+

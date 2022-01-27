@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Libre+Baskerville&family=Open+Sans:ital,wght@0,300;1,500&family=Oswald:wght@200&family=Playball&family=Raleway&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    display: grid;
+    grid-template-rows: 10em 50vh auto 10em;
+    grid-template-columns: 1fr 5fr 2fr 1fr;
+    grid-template-areas: "header header header header"
+                         "hero  hero  hero    hero"
+                          " .   main sidebar . "
+                        "footer footer footer footer";
+}
+header{
+    grid-area:header;
+}
+.hero{
+    grid-area:hero ;
+    background-image: url(Capture.PNG);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-title{
+    margin:0;
+}
+.hero-subtle{
+    color:white;
+    font-size:4rem;
+    margin:0;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area:sidebar;
+    background-color: gray;
+    padding: 2em;
+}
+footer{
+    grid-area: footer;
+}
+
+header,footer{
+    background-color: black;
+    color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .header-title,.footer-title{
+
+} */
+/*Cards*/
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: min-content auto;
+    grid-template-areas: "img title"
+                         "img content ";
+
+}
+.card-img{
+    grid-area:img;
+}
+.card-title{
+    grid-area: title;
+    background-color: greenyellow;
+
+}
+.card-content{
+    grid-area: content;
+    background-color: gold;
+}

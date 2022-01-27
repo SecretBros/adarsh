@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+ overflow: hidden;  
+}
+/* this is css for the header */
+    
+    .navbar-nav{ border: 1px solid red; 
+        background: var(--clr-light);
+        position: absolute; 
+        right: 0;
+        box-shadow: 0 0 3em rgba(0,0,0,.15);
+        transform: translateX(100%);
+        transition:transform 300ms cubic-bezier(.5, 0, .5, 1)
+      }
+      .nav__list{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 3em 6em;
+      }
+     
+
+      .nav__item{
+        margin-bottom: 3em;
+      }
+      
+      .nav__link{
+        text-decoration: none;
+        color: var(--clr-dark);
+      }
+      
+      .nav__link:hover {
+        text-decoration: underline;
+        color: var(--clr-primary);
+      }
+      
+      .nav__toggle {
+        position: absolute;
+        top: 2em;
+        left: 0;
+        background-color: black;
+        transform: translateX(-100%);
+        background: var(--clr-light);
+        padding: 1em .5em;
+        border: 0;
+        border-radius: .25em 0 0 .25em;
+      }
+      .hamburger {
+        display: block;
+        position: relative;
+      }
+      .hamburger,
+      .hamburger::before,
+      .hamburger::after {
+        width: 2em;
+        height: 3px;
+        background: var(--clr-dark);
+        
+        transition: transform 350ms ease-in-out, opacity 200ms linear;
+      }
+      
+      .hamburger::before,
+      .hamburger::after {
+        content: '';
+        position: absolute;
+        left: 0;
+      }
+      
+      .hamburger::before { bottom: 6px; }
+      .hamburger::after { top: 6px;}
+      
+      
+      /* Navigation open styles */
+      
+      .nav-open .nav {
+        transform: translateX(0);
+      }
+      
+      /* /* Change this stuff below  */
+      
+      .nav-open .hamburger {
+        transform: rotate(45deg);
+      }
+      
+      .nav-open .hamburger::before {
+        opacity: 0;
+      }
+      
+      .nav-open .hamburger::after {
+        transform: rotate(90deg) translate(-6px);
+      }
+    
+    a {
+    position: relative;
+    text-decoration: none; 
+  }
+  #bar{
+      margin-top: 0px;
+  }
+  
+  .nav-link:hover::after {
+    content: "";
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 0;
+   
+  }
+.nav-link{color:black;
+}
+
+/* this is the css of row1*/
+#inner-row{
+    height:650px;
+
+}
+#inner-col{
+    height:650px ;
+    width: 1200px;
+    background-image: url('img.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    object-fit: contain; 
+}
+.inner-left-bottom{
+    background-color:transparent;
+    width: 400px;
+    margin-bottom: 70px;
+    color:mintcream;margin-left: 70px;
+    
+}
+#inner-btn{
+    width:130px;height:50px;
+    background-color:transparent;
+    color:white;
+    border:3px solid white;display:inline-block;
+    transition:color .5s cubic-bezier(0.19, 1, 0.22, 1);
+    position: relative;;
+     
+    
+}
+#inner-btn:hover {background-color: #e7e7e7;
+color:black;
+
+}
+
+
+
+/* this is the css of row2*/
+
+#second-row{
+    height:760px;
+
+}
+#second-col{
+    height:760px ;
+    width: 1200px;
+    background-image: url('img2.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+   
+}
+.second-left-bottom{
+    background-color:transparent;
+    width: 400px;
+    margin-bottom: 70px;
+    color:mintcream;margin-left: 70px;
+    
+}
+
+/* this is the css of row3*/
+
+#third-row{
+    height:760px;
+
+}
+#third-col{
+    height:760px ;
+    width: 1200px;
+    background-image: url('img3.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+   
+}
+.third-left-bottom{
+    background-color:transparent;
+    width: 400px;
+    margin-bottom: 70px;
+    color:mintcream;margin-left: 70px;
+    
+}
+
+/* this is the css of row4*/
+
+#fourth-row{
+    height:760px;
+
+}
+#fourth-col{
+    height:760px ;
+    width: 1200px;
+    background-image: url('img4.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+   
+}
+.fourth-left-bottom{
+    background-color:transparent;
+    width: 400px;
+    margin-bottom: 70px;
+    color:mintcream;margin-left: 70px;
+    
+}
+
+
+/* this is the css of row5*/
+
+#five-row{
+    height:760px;
+
+}
+#five-col{
+    height:760px ;
+    width: 1200px;
+    background-image: url('img5.webp');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+   
+}
+.five-left-bottom{
+    background-color:transparent;
+    width: 400px;
+    margin-bottom: 70px;
+    color:mintcream;margin-left: 70px;
+    
+}
+
+/*  this is css for the footer*/
+div #footer {
+    background-color: black;
+
+}
+#last{
+text-align: center;
+margin: 0px 30px;
+}
+
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 18px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+   
+
+}
+.container{
+
+}
+
+div span {
+    color: #585858;
+}
+
+
+.social a{
+    font-size:small; 
+    
+
+}
+
+@media (max-width: 300.98px) {
+    .container{ display: block;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    #third-row h1{
+        font-size: 4px;
+    }
+    .container-fluid{padding: auto;
+        justify-content:end;
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        font-size: 4px;
+    
+
+    }
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fourth-left-bottom{padding: auto;
+    justify-content:end;
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    font-size: 10px;
+
+}
+ div #fourth-col{padding: auto;
+    justify-content:end;
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    font-size: 10px;
+}
+ div #third-col{padding: auto;justify-content: end;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: small;
+}
+ div #second-col{padding: auto;justify-content: end;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: small;
+}
+body
+{
+    overflow-x: hidden;
+}
+
+ }
+

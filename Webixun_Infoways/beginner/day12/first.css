@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;;
+    padding: 0;
+}
+
+.row{
+    height: 600px;
+    width: 500px;
+    padding: auto;
+    margin:auto ;}
+#rectanglebox{
+background-color: blue;
+    display:block;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   margin:auto ;
+    height: 590px;
+    width: 450px;
+    align-items: center;
+     background-image: url("back.jpg"); 
+}
+div #rectanglebox h2{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+div #rectanglebox #btn1{
+    display: flex;
+   justify-content: space-evenly;
+   bottom: 25%;
+    position: fixed;
+    left: 40%;
+}
+div #rectanglebox #savebtn{
+    display: flex;
+   justify-content: space-evenly;
+   bottom: 25%;
+    position: fixed;
+    left: 50%;
+}
+div #rectanglebox #demo{
+    font-size:150px;
+    text-align: center;
+    color: cornsilk;
+}
+div #rectanglebox #name{
+    font-size:40px;
+    text-align: center;
+    color: cornsilk;
+    text-transform: capitalize;
+}
+ div #rectanglebox #entries{
+    font-size:20px;
+    text-align: center;
+    color: cornsilk;
+    text-transform: capitalize;
+    bottom: 18%;
+    position: fixed;
+    left: 40%;
+
+ }
+  div #rectabglebox #reset{
+    font-size:20px;
+    text-align: center;
+    color: cornsilk;
+    text-transform: capitalize;
+    bottom: 18%;
+    position: fixed;
+    left:90%;
+
+  }
+

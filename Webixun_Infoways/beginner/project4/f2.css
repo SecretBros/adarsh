@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    overflow-x: hidden;
+}
+
+.main1 {
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    border: 20px;
+
+}
+
+.formid {padding: 10px;
+    box-sizing: 100%;
+    margin-left: 750px;
+    margin-right: 20px;
+    height: 330px;
+    width: 365px;
+    margin-top: 110px;
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 2px;
+}
+
+.footercontain {
+    height: 30vh;
+    background-color: wheat;
+}
+
+.pic1 {
+    height: 156px;
+}
+
+
+.logo {
+    border-color: yellow;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.box1 {
+    padding:  6px;
+    height: 50px;
+    width: 330px;
+    /* border: none; */
+    display: block;
+    /* margin-right: 300px; */
+    border-radius: 3px;
+    border-color: blue;
+    align-items: right;
+    margin-left: 7px;   
+}
+
+.box2 {
+    margin-top: 10px;
+    padding:  6px;
+    height: 50px;
+    width: 330px;
+    /* border: none; */
+    display: block;
+    /* margin-right: 300px; */
+    border-radius: 3px;
+    border-color: blue;
+    align-items: right;
+    margin-left: 7px;
+}
+
+.forme {
+    flex: 0 0 40%;
+    text-align: center;
+    border: 20px;
+    border-color: blue;
+    /* margin-right: 150px; */
+    margin-left: 150px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #1877f2;
+    border: none;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#btn-id {
+    background-color: #42b72a;
+    color: #fff;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 0 16px;
+    float: right;
+    /* margin-bottom: 290px; */
+    margin-top:0px;
+}
+
+h5 {
+    text-decoration: none;
+    font-family: inherit;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.34;
+    direction: ltr;
+    text-align: center;
+    margin:15px 0;
+}
+
+.last_part {
+    color: #020202;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.link{
+    font-weight:900
+}

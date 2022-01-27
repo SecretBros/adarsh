@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    background-color: steelblue;
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+#nav li{
+    list-style-type: none;
+}
+.container{ overflow-y: hidden;
+    display: flex;
+    margin-top: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#cont{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    height: 500px;margin-top: 40px;
+
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+background-color: rgb(221, 160, 103);
+
+}
+#gameinfo
+{ padding:0 34px;
+    font-family: 'Roboto', sans-serif;  
+    width: 500px;
+    height: 500px;margin-top: 40px;
+
+}
+.imgbox img{
+    width: 0;
+}
+h1{
+    width: 50%;
+}

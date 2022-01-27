@@ -1,0 +1,39 @@
+body{
+
+width:100%;
+padding: auto;
+margin: auto;
+}
+#col1{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    flex-wrap: wrap;
+    border:10px solid black;
+}
+#a{
+    width:10rem;
+    height: 200px;
+   background-color: darkblue;
+
+}
+#b{
+    width:10rem;
+    height: 200px;
+    background-color: blueviolet;
+
+
+}
+#c{
+    width:10rem;
+    height: 200px;
+    background-color:red;
+
+
+}
+@media (max-width: 575.98px) { 
+    body{
+        width: 300px;
+        flex-direction: column;
+    }
+ }

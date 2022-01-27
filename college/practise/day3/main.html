@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // to add the item in the list
+            // var add_btn = $('#add-btn')
+            $('#add-btn').click(function (e) {
+                e.preventDefault();
+                var inp = $('#input').val();
+                var addList = "<div class='main_li'><input type='checkbox'  align-item:right name='rad' value=" + inp + " class='radio'><li>" + inp + "</li></div>";
+                $('#list').append(addList);
+                $('#input').val('');
+            });
+
+            $('#del-btn').click(function (e) {
+                $('#list').html('');
+
+            });
+
+            
+            
+
+            $('#list,li,.radio').change(function () {
+                $('#list,li,.radio').click(function(e){
+                    $('#list,li,.radio').css('text-decoration', 'line-through');
+                })
+                
+            
+            });
+
+            // $('#list,li,.radio').click(function () {
+            //     if ($('#list,li,.radio').is(':checked')) {
+            //         //input where you put a value
+            //         $('#program').val("radio-button-text");
+            //     }
+            // });
+
+            // $('#radio-button-id').click(function () {
+            //     if ($('#radio-button-id').is(':checked')) {
+            //         //input where you put a value
+            //         $('#program').val("radio-button-text");
+            //     }
+            // });
+
+
+
+
+            //to delete the entire list
+            // var del_btn=$('#del-btn');
+            // $('#del-btn').click(function(){
+            //     $('ul').html('')
+            // })
+
+            // $('.input').change(function(){
+            //     var input=$(this).val();
+            //     $('ul').append('<li>'+ input+'</li>');
+            //     $(this).val('');
+            // });
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1>To do</h1>
+            <input type="text" id="input" placeholder="enter today task" />
+            <button id="add-btn" placeholder="add">Add</button>
+            <ul id="list">
+                
+
+            </ul>
+            <button id="del-btn" placeholder="delete">Remove</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

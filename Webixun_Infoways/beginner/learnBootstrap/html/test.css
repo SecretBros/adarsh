@@ -1,0 +1,36 @@
+.container-fluid {
+
+    padding: 0;
+
+}
+
+.row {
+    background-color: crimson;
+    display: flex;
+
+}
+#mycarousel{
+    width:850px;
+    height: 250px;
+    background-color: none;
+}
+
+#header {
+    background-color: red;
+
+}
+
+#right {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+#row2 {
+    background-color: goldenrod;
+
+}
+#footer{
+    background-color: honeydew;
+}

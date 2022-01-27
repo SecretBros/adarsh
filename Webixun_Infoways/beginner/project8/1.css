@@ -1,0 +1,372 @@
+*{
+box-sizing: border-box;
+}
+
+#row1 {
+    height: 80px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;  
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    position: sticky;
+}
+#imgs1{padding: 0;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    
+}
+.imgs{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+   float:left;   
+}
+#ulist{
+    padding-right: 300px;
+}
+.h5{}
+#uppertopright {
+    background-color: #24324A;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s {
+    margin-left: 10px;
+    padding-right: 20px;
+    width: 120px;
+}
+.btnnotalign {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#navbarDropdownMenuLink{ text-decoration: gray;
+    color:#474747}
+
+#navbarDropdownMenuLink1{ text-decoration: gray;
+    color:#474747 }
+
+.dropdown-menu {
+    margin-left: 20px;
+    
+}
+.container-fluid {
+    overflow-x: hidden;
+}
+#col2 {
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+#col3 {
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+
+.img {
+    padding: 10px;
+}
+
+.h4 {
+    text-align: center;
+}
+
+#seemorebtn {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: transparent;
+    border: white;
+}
+.btn-primary{
+    background-color: transparent;
+    border-color: black;
+   color:black
+}
+
+
+#btn{
+    width:120px;
+    height: 50px;
+    background-color:white;
+    border:none;
+}
+
+#btngande{
+    padding:0;
+    width:300px ;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+li {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+#gym {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.p {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center
+}
+
+;
+
+.col-md-3 {
+    display: flex;
+    align-content: center;
+    border: 3px solid;
+    margin-bottom: 10px;
+};
+
+.col-div1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+}
+
+.col-div2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    height: 500px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.row-img {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+    height: 400px;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#img {
+    height: 350px;
+    width: 500px;
+    margin-right: 30px;
+}
+
+#navbarDropdownMenuLink{
+    padding-bottom: 22px;
+}
+#navbarDropdownMenuLink1{
+    padding-bottom: 22px;
+}
+
+.row-img2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+    height: 400px;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.bordernav{
+    border-color: 10px black;
+}
+
+.col-div4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+}
+
+.col-div3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    height: 500px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#img2 {
+    height: 350px;
+    width: 500px;
+    margin-right: 30px;
+}
+
+#last {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    padding: 15px;
+    background-color: darkseagreen;
+    background-repeat: no-repeat;
+}
+
+#last-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 700px;
+    padding: 15px;
+    padding-right: 50px;
+    margin: auto;
+
+}
+
+#last-btn {
+    background-color: transparent;
+    border-color: black;
+    color:black;
+    box-shadow: none;
+
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+ul {
+    display: block;
+    text-decoration: gray;
+    color:#474747;
+}
+#type1 {
+    text-align:center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: grey;
+   
+}
+
+#type2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#type3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#lastbtn {
+    border-radius: 20px;
+}
+
+#inlineFormInput {
+    border-radius: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.list-unstyled {
+    text-decoration: gray;
+}
+
+a {
+    color: #474747;
+    text-decoration: none;
+}
+h4{
+    text-align: center;
+}
+
+
+@media only screen and(max-width:600px) {
+    .abcd{
+        font-size: 100px;
+    }
+}
+
+/*
+
+@media screen and (min-width:300px)
+    and (max-width:500px){
+        #headertop{
+            display:flex; 
+            font-size: 50px;
+
+        
+        
+        }
+    }
+    @media  only screen and (min-width:500px)
+    {
+        #headertop{ display:flex;font-size: 30px; 
+        }
+    }
+    @media screen and (min-width:768px)
+    {
+        #headertop{ font-size: 25px;display:flex;
+       }
+    }
+    @media screen and (min-width:992px)
+    {
+        #headertop{ font-size: 12px;display:flex;}
+    }
+    @media screen and (min-width:1200px)
+    {
+        #headertop{ font-size: 18px;display:flex;}
+    }
+*/

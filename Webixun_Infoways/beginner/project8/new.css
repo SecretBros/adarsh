@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.nav-item a{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}

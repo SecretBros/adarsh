@@ -1,0 +1,36 @@
+
+.class1{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    flex-wrap: wrap;
+    
+    
+
+}
+#a{
+    width:10rem;
+    height: 200px;
+   
+
+}
+#b{
+    width:10rem;
+    height: 200px;
+    
+
+
+}
+#c{
+    width:10rem;
+    height: 200px;
+    
+
+
+}
+@media (max-width: 575.98px) { 
+    body{
+        width: 300px;
+        flex-direction: column;
+    }
+ }

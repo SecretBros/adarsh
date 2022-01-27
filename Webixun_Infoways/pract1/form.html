@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+                    var add_button = $('#add_button');
+                    var remove_button=$(".remove_button");
+                    var wrapper = $('.field_wrapper');
+//var deleterow = '<tr> </tr>'
+                    var row =
+                        '<tr><td><input type="text" id="fname" placeholder="enter the name "></td><td><input type="text" id="address" placeholder="enter the address"></td><td><input type="number" id="phone-number" placeholder="enter the phone number"></td> <td><button class="remove_button">minus</button></td></tr>';
+                    $("#add_button").click(function () { 
+                        $('#table').append(row);
+                    });          
+                    $('#table').on('click','.remove_button',function(){
+                        $(this).closest('tr').remove();
+                    })
+                });
+
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="field_wrapper">
+
+            <table id="table">
+                <tr>
+                    <td><input type="text" id="fname" placeholder="enter the name "></td>
+                    <td><input type="text" id="address" placeholder="enter the address"></td>
+                    <td><input type="number" id="phone-number" placeholder="enter the phone number"></td>
+                    <td><button class="remove_button">minus</button></td>
+                </tr>
+                <button id="add_button">ADD</button>
+                
+            </table>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
